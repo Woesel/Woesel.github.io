@@ -1,27 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Tables in HTML</title>
-	</head>
+		<title>Tenzin Woesel's Page</title>
+		<style>
+		table {
+				border:1px solid red;
+				border-collapse: collapse;
+				}
+
+		td {
+				border:1px solid black;
+				padding:8px;
+				text-align:center;
+			}
+
+		body {
+				font-family:sans-serif;
+			}
+
+		#main {
+				padding-top:40px;
+				text-align:left;
+				width: 300px;
+				margin:0 auto;
+				}
+
+		h1 {
+				text-align:center;
+			}
+</style>
+
+	</head>	
 	<body>
-		<table border="3" width="90%">
-			<caption>Contact Information</caption>
-			<tr bgcolor="green">
-				<th>Category</th>
-				<th colspan="2">Name</th>
-				<th>Phone</th>
-			</tr>
-			<tr>
-				<td rowspan="2">Friends</td>
-				<td>John </td>
-				<td>Doe</td>
-				<td>34789</td>
-			</tr>
-			<tr>
-				<td>Tenzin</td>
-				<td>Woesel</td>
-				<td>347299</td>
-			</tr>
-		</table>
-	</body>
+	<div id="main">
+		<h1>Tenzin Woesel</h1>
+
+			<img src="images/logo.png" width=300><br/>
+
+			My Links:
+				<ul>
+					<li>
+					<a href="Portfolio/index.html">My Portfolio</a>
+					</li>
+					<li>
+					<a href="https://tenzinwoeselblog.wordpress.com/">My Blog</a>
+					</li>
+					<li>
+					<a href="https://github.com/Woesel">My GitHub</a>
+					</li>
+				</ul><br />
+				Projects:
+				<ol>
+					<li>
+						<a href="">Restaurant Site</a>
+					</li>
+					<li>
+						<a href="">Restaurant Site with CSS</a>
+					</li>
+					<li>
+						<a href="">Restaurant Site with JavaScript</a>
+					</li>
+				</ol>
+
+
+	</div>
+</body>
 </html>
