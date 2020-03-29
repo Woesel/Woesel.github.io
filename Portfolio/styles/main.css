@@ -3,16 +3,16 @@
 	Date Created: 3/28/2020
 */
 body{
-	background-color:#9DDE5B;
+	background-color:#F1F2F2;
 	font-family: 'Comic Sans MS';
-	color: #6221a4;
+	color: #606060;
 	max-width:900px;
 	margin: 0 auto;
 }
 
 header, footer{
-	background-color: #6221a4;
-	color: #9DDE5B;
+	background-color: #B5BDAF;
+	color: #606060;
 	height:100px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
@@ -77,7 +77,6 @@ textarea{
 article img {
 	float:left;
 	border-radius: 30px;
-	border: thin #6221a4 solid;
 }
 .right-content{
 	float:left;
@@ -87,8 +86,8 @@ article {
     margin-bottom: 16px;
 }
 nav a {
-	background-color: #6221a4;
-	color: #9DDE5B;
+	background-color: #B7E4F4;
+	color: #606060;
 	padding: 8px;
 	border: thin solid #0d1f2d;
 	border-radius: 10px;
@@ -100,10 +99,11 @@ nav a {
 	float: left;
 }
 nac a:visited {
-	color: #e4c3ad;
+	background-color: #B7E4F4;
+	color: #5b7d87;
 }
 nav a:hover {
-	background-color: #a42149;
+	background-color: #B5BDAF;
 	color: #5b7d87;
 }
 nav a:active {
