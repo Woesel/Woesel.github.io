@@ -5,13 +5,13 @@
 body{
 	background-color:#9DDE5B;
 	font-family: 'Comic Sans MS';
-	color: #80491F;
+	color: #6221a4;
 	max-width:900px;
 	margin: 0 auto;
 }
 
 header, footer{
-	background-color: #ff0000;
+	background-color: #6221a4;
 	color: #9DDE5B;
 	height:100px;
 	text-align: center;
@@ -76,6 +76,8 @@ textarea{
 }
 article img {
 	float:left;
+	border-radius: 30px;
+	border: thin #6221a4 solid;
 }
 .right-content{
 	float:left;
@@ -85,7 +87,7 @@ article {
     margin-bottom: 16px;
 }
 nav a {
-	background-color: #ff0000;
+	background-color: #6221a4;
 	color: #9DDE5B;
 	padding: 8px;
 	border: thin solid #0d1f2d;
@@ -101,7 +103,7 @@ nac a:visited {
 	color: #e4c3ad;
 }
 nav a:hover {
-	background-color: #F5DE64;
+	background-color: #a42149;
 	color: #5b7d87;
 }
 nav a:active {
