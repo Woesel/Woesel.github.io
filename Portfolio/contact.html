@@ -7,12 +7,17 @@
 <html lang="en"> 
     <head> 
         <title>Contact</title>	
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		
     </head> 
     
-    <body style="background-color:powderblue;">
+    <body /*style="background-color:powderblue;"*/>
         <header>
-            <h1>Contact Informations</h1>
-        </header>
+		 <h1>Contact Informations</h1>
+		</header>
+		<nav>
+		<a href="index.html">Home </a>
+        </nav>
 		<form action="submit.html" method="POST">
 		<label for="firstName">First Name:</label><br/>
 		<input type="text" id="firstName" name="firstName"><br/>
@@ -47,9 +52,7 @@
 			<textarea id="info" name="info"></textarea>
 			<input type="submit" name="submit" value="Submit">
 
-        <nav>
-		<a href="index.html"> <img src="image/profilePic.jpg" width="400"></a>
-        </nav>
+        
         <footer>
 		<p>&copy; 2020 Tenzin Woesel. All rights reserved.</p>
         </footer>
