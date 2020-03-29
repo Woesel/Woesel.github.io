@@ -3,17 +3,22 @@
 	Date Created: 3/28/2020
 */
 body{
-	background-color: powderblue;
-	font-family: arial, helvetica, sans-serif;
-	color: #BF8069;
+	background-color:#9DDE5B;
+	font-family: 'Comic Sans MS';
+	color: #617865;
+	max-width:900px;
+	margin: 0 auto;
 }
+
 header, footer{
-	background-color: #5b7d87;
-	color: #fef9ff;
+	background-color: #6DBFDE;
+	color: #617865;
 	height:100px;
 	text-align: center;
-	padding: 30px 10px 20px 10px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
 }
+
 h1{
 	font-size: 2.5em;
 }
@@ -64,4 +69,40 @@ textarea{
 	border-radius: 3px;
 	background-color: #fff;
 	resize: none;
+}
+
+.clear-float{
+	clear:both;
+}
+article img {
+	float:left;
+}
+.right-content{
+	float:left;
+	margin-left: 10%;
+}
+article {
+    margin-bottom: 16px;
+}
+nav a {
+	background-color: #6DBFDE;
+	color: #617865;
+	padding: 8px;
+	border: thin solid #0d1f2d;
+	border-radius: 10px;
+	text-decoration: none;
+	display: block;
+	margin: 20px 20px;
+	width: 100px;
+	float: left;
+}
+nac a:visited {
+	color: #e4c3ad;
+}
+nav a:hover {
+	background-color: #F5DE64;
+	color: #5b7d87;
+}
+nav a:active {
+	font-weight: bold;
 }

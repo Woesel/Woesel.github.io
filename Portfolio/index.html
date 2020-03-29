@@ -10,9 +10,6 @@
 	<title>Tenzin Woese's Portfolio</title>
 	<link href="styles/main.css" rel="stylesheet" type="text/css" />
 	<style>
-		/*h1 {
-				text-align:center;
-			}
 		caption{
 				font-weight: bold;
 				font-size: 1.2em;
@@ -23,10 +20,10 @@
 				border-collapse: collapse;
 				padding: 5px 10px;
 					}
-		table{
+		/*table{
 			width: 90%;
 			margin: auto;
-			}
+			}*/
 		tr{
 			height: 30px;
 			}
@@ -38,36 +35,40 @@
 			background-color: #e4c3ad;
 			}
 			
-					*/
+		
 		
 	</style>
     </head>
-        <body /*style="background-color:powderblue;*/">
+        <body">
 	    <main>		<!-- The main element contains all blocks on this page. -->
 	    <header>
 		<h1>Portfolio for Tenzin Woesel</h1>
 	    </header>
 		<nav> 		<!-- The nav element will include navigation buttons or links. -->	
 		    
-		    <a href="">Home</a>&nbsp;&nbsp;
-		    <a href="project.html">Projects</a>&nbsp;&nbsp;
-		    <a href="testimonial.html">Testimonial</a>&nbsp;&nbsp;
-		    <a href="contact.html">Contact me</a>&nbsp;&nbsp;
+		    <p><a href="">Home</a></p>
+		    <p><a href="project.html">Projects</a></p>
+		    <p><a href="testimonial.html">Testimonial</a></p>
+		    <p><a href="contact.html">Contact me</a></p>		
+			<p><div class="clear-float"></div>
 		    
 		</nav>
 
 	<section> <!--The section element contains 3 chunks we are using to sell overselves in this page. -->
 	    <article id="aboutme"> <!-- This is the first chunk inside the section element.-->
 		<p></p>
-		<h2><em>About Me</em></h2>
-		<img src="image/profilePic.jpg" alt="Portrait of Tenzin Woesel" style="border: thick red solid; width: 100px; height:100px">
+		
+		<h2><strong><u>About Me</u></strong></h2>
+		<img src="image/profilePic.jpg" alt="Portrait of Tenzin Woesel" width="200" ><br/>
 			<p>I am a student at TechHire <strong> Laguardia Community College</strong> studying full stack web development. </p>
+			<div class="clear-float"></div>
 	    </article>	
 	    
 	    <article id="experience"> <!-- This is the second chunk inside the section element.-->
 
-		<h2><em>Past Experience</em></h2>	
-		<img src="image/project.webp" alt="Computers on screen" style="border: thick red solid; width: 400px; height:400px">  
+		<h2><strong><u>Past Experience</u></strong></h2>	
+		<img src="image/project.webp" alt="Computers on screen" width="250">
+			<div class="right-content">
 			<table border="1">
 				<caption> Employment History</caption>
 				<tr>
@@ -85,14 +86,20 @@
 					<td>Cashier/Sandwich Artist</td>
 					<td>Dunking Donuts</td>
 				</tr>
-			</table>
+				</table>
+			</div>
+			<div class="clear-float"></div>
 	    </article>
 	    
 	    <article id="hobbies"> <!-- This is the third chunk inside the section element.-->
-		<h2><em>Hobbies</em></h2>
-		<img src="image/pokemon.webp" alt="Pokemon Go on phone" style="border: thick red solid; width: 400px; height:400px">
+		<h2><strong><u>Hobbies</u></strong></h2>
+		<img src="image/pokemon.webp" alt="Pokemon Go on phone" width="250" height="300" >
+		
 		<ul>
+		<div class="right-content">
+			
 			<li>Games</li>
+			
 			<ol>
 				<li>Pokemon Go</li>
 				<li>Tanki Online</li>
@@ -103,8 +110,10 @@
 				<li>Arthdal Chronicles</li>
 				<li>The Originals</li>
 			</ol>
+		</div>
 		</ul>
 		<ul>
+		<div class="right-content">
 			<li>Sports</li>
 			<ul>
 				<li>Soccer</li>
@@ -116,8 +125,10 @@
 				<li>Pokemon Hunting</li>
 				<li>Long walks</li>
 			</ul>
+		</div>		
 		</ul>
-	        
+		</div>
+	    <div class="clear-float"></div>    
 	    </article>
 	
 	    </section>
