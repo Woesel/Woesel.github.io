@@ -1,12 +1,16 @@
-body{
-	background-color:#66DEBC;
-	font-family: 'Comic Sans MS';
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Pacifico&display=swap');
+.imageheader{
+	background-image: url("image/stars.jpg");
+}
+body{	
+	font-family: 'Fondamento', cursive;
 	color: #606060;
 	max-width:900px;
 	margin-right:auto;
 	margin-left:auto;
 }
 header, footer{
+	font-family: 'Georgia';
 	background-color: #B5BDAF;
 	color: #606060;
 	height:100px;
@@ -15,7 +19,8 @@ header, footer{
 	border-radius: 20px;
 }
 h1{
-	font-size: 2.5em;
+	font-size: 4em;
+	color: #BF8069; 
 }
 nav{
 	
@@ -28,3 +33,7 @@ nav{
 		background-color: #5b7d87;
 		color: #fef9ff;
 	}
+	nav a:hover {
+	background-color: #66DEBC;
+	color: #5b7d87;
+}
