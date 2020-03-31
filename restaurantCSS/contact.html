@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 		<title>Contact Us</title>
-			<style>
-				h1,h2,body {
-								text-align:center;
-							}
-			   
-				
-			</style>
+		
+		
+		<!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	   
+	   <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+			
 	</head>
-	<body style="background-color:powderblue;">
+	<body>
 		<main>
+			<div class="jumbotron text-center">
 			<header>
 				<h1>Tenzin's Momo Zone</h1>
-				<nav>
-				<hr/>
-					<a href="index.html">Home</a>&nbsp;
-					<a href="menu.html">Menu</a>&nbsp;
-					<a href="">Contact Us</a>&nbsp;
-				</nav>
 			</header>
+			
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="btn badge-pill" class="nav-link" href="index.html">Home</a>
+							<a class="btn badge-pill" class="nav-link" href="menu.html">Menu</a>
+							<a class="btn badge-pill" class="nav-link" href="contact.html">Contact us</a>
+						</li>
+					</ul>
+				</div><div class="clear-float"></div>
 			<hr/>
+			</nav>
+				
+			
+			<hr/>
+			<br/>
+			
 			<form action="submit.html" method="POST">
 			<label for="name">Name:</label>
 			<input type="text" id="name" name="name"><br/><br/>
@@ -58,6 +72,7 @@
 				<input type="submit" name="sendRequest" value="Send Request">
 			</form>
 			<hr/>
+			</div>
 			<footer>
 				<p> 45-25,48th street<br/>
 				    First Floor,Woodside,<br/>
@@ -65,6 +80,12 @@
 				</p>
 			</footer>
 		</main>
+		
+			<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
 	</body>
 </html>
 				
