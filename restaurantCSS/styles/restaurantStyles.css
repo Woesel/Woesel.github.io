@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Pacifico&display=swap');
+
 .imageheader{
 	background-image: url("image/stars.jpg");
 }
@@ -11,8 +12,8 @@ body{
 }
 header, footer{
 	font-family: 'Georgia';
-	background-color: #B5BDAF;
-	color: #606060;
+	background-color: #484848;
+	color: #BF8069;
 	height:100px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
@@ -33,7 +34,15 @@ nav{
 		background-color: #5b7d87;
 		color: #fef9ff;
 	}
-	nav a:hover {
+nav a:hover {
 	background-color: #66DEBC;
 	color: #5b7d87;
+}
+nac a:visited {
+	background-color: #B7E4F4;
+	color: #5b7d87;
+}
+nav a:active {
+	background-color: #66DEBC;
+	font-weight: bold;
 }
