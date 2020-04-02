@@ -7,10 +7,10 @@
 
 // You are given four variables with numeric values.
 
-var kidsWhoWantToSwim = 3;   // number of kids who want to swim
-var kidsWhoWantDoArchery = 2; // number of kids who want to do archery
-var totalSwimmers = 0;        // number of kids who are actually swimming in the afternoon
-var totalArchers = 0;         // number of kids who are actually doing archery in the afternoon
+let kidsWhoWantToSwim = 3;   // number of kids who want to swim
+let kidsWhoWantDoArchery = 2; // number of kids who want to do archery
+let totalSwimmers = 0;        // number of kids who are actually swimming in the afternoon
+let totalArchers = 0;         // number of kids who are actually doing archery in the afternoon
 
 // Using if and else statements, apply the following rules:
 // If kidsWhoWantToSwim is even,
@@ -32,7 +32,8 @@ var totalArchers = 0;         // number of kids who are actually doing archery i
 if(kidsWhoWantToSwim %2 == 0){
 	totalSwimmers = kidsWhoWantToSwim ;
     totalArchers = kidsWhoWantDoArchery;
-}else{
+}
+else{
 	totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
 }
 
