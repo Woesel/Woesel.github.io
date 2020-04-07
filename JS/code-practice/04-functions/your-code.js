@@ -8,8 +8,8 @@
 // Write code to add firstNumber and secondNumber and then return the result.
 
 function addTwoNumbers(firstNumber, secondNumber) {
-        let result =  firstNumber + secondNumber; // your code goes here
-		return result;
+        return firstNumber + secondNumber; // your code goes here
+		
 	}
 
 // Open index.html in your browser, open the JavaScript console, confirm the result.
@@ -33,9 +33,7 @@ console.log("-53 + 40 -> expected: -13, actual: %s", result);
 // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Character_access
 function getFirstCharacter(text) {
 // your code goes here.
-for( let i=0; i<=text.length;i++){
-return text[i];
-}
+return text[0];
 }
 
 console.log("getFirstCharacter =====");

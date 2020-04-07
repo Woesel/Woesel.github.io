@@ -14,8 +14,8 @@ console.log("FOR ONE TO SEVEN");
 
 let n = 1; 
 while(n<=7){
-	console.log(a); 
-	a++; 
+	console.log(n); 
+	n++; 
 }
 
 
@@ -129,7 +129,7 @@ for( let n=0; n <= winniesFavoriteNumber+ kaisFavoriteNumber; n++){
 	
 	}
 }
-
+	
 
 
 
