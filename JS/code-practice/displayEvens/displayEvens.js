@@ -13,22 +13,25 @@ function displayEvens() {
   num2 = Number(document.getElementById("endNum").value);
   step = Number(document.getElementById("step").value);
 
+
+  let boolean  = true;
   if (num1 == "") {
     document.getElementById("emptyStart").style.display = "block";
-    return false;
-
-  }if (num2 == "") {
+  boolean = false;
+  }
+  if (num2 == "") {
     document.getElementById("emptyEnd").style.display = "block";
-    return false;
-
-  } else if (step == "") {
+      boolean = false;
+  }
+   if (step == "") {
     document.getElementById("emptyStep").style.display = "block";
+      boolean = false;
+  }
+  if(boolean  ===false){
     return false;
   }
 
   document.getElementById("resultText").innerHTML = "Here are the even numbers between " + num1 + " and " + num2 + " incremented by " + step + ":";
-
-
 
   if (num1 > num2) {
     alert("Starting number should be smaller than ending number");
@@ -53,5 +56,5 @@ function displayEvens() {
   }
   document.getElementById("answer").innerHTML = answer;
   document.getElementById("showResult").style.display = "block";
-  //  document.getElementById("showResult").style.display = "block";
+  //document.getElementById("showResult").style.display = "block";
 }
