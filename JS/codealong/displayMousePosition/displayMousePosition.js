@@ -21,7 +21,7 @@ function toggle(){
 	if (tracking){
 		this.classList.remove("btn-danger");
 		this.classList.add("btn-success");
-		this.innerText = "Start tracking mouse." ;
+		this.innerText = "Start mouse tacking." ;
 		
 		mouseX.innerText = "Untracked";
 		mouseY.innerText = "Untracked";
@@ -52,4 +52,4 @@ function updateMousePosition(evt){
 // Instead, a reference to the function (its name) is attached to the DOM.
 
 document.getElementById("btnToggle").addEventListener("click", toggle);
-document.getElementById("mousemove", updateMousePosition);
+document.addEventListener("mousemove", updateMousePosition);
