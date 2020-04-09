@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lucky Sevens</title>
+  <style>
+    body {
+      background-color: #B38968;
+    }
+
+    .container {
+      text-align: center
+    }
+    #play {
+      background-color: lightblue;
+    }
+
+    table,th, td {
+      border-radius: 20px;
+      background-color: lightblue;
+      color: #black;
+      text-align: center;
+      border: 1px solid #B38968;
+      border-collapse: collapse;
+      padding auto;
+
+    }
+  </style>
+
+</head>
+<h1 style="text-align:center">Lucky Sevens</h1>
+
+<body>
+  <div class="container">
+    <label>Starting Bet : </label> <input id="startBet" type="number" placeholder="$0">
+    <p id="error1" style="display:none">Please bet more than $1. </p>
+
+    <!-- <button id="play" onClick = "luckySeven()" > Play </button> -->
+
+    <center><button id="play" onClick="playGame()">Play</button></center>
+    <div class="result" id="winloss" style="display: none">
+      <h2 style="text-align: center">Results</h2>
+    <center>  <table id="middle">
+        <tr>
+          <th>Starting Bet</th>
+          <td id="firstBet"> </td>
+
+        </tr>
+        <tr>
+          <th>Total Rolls Before Going Broke</th>
+          <td id="rollsLeft"> </td>
+        </tr>
+        <tr>
+          <th>Highest Amount Won</th>
+          <td id="amtWon"></td>
+        </tr>
+        <tr>
+          <th>Roll Count at Highest Amount Won</th>
+          <td id="maxRoll"></td>
+        </tr>
+
+      </table><center>
+    </div><br>
+
+    <script type="text/JavaScript" src="lucky7.js"></script>
+
+</body>
+
+</html>
