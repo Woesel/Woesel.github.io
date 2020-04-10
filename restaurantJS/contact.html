@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us</title>
+
+
+	<!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<style>
+		.imageheader {
+			background-image: url("image/stars.jpg");
+			background-attachment: fixed;
+		}
+	</style>
+
+</head>
+
+<body class="imageheader">
+	<main>
+		<div class="jumbotron text-center">
+			<header>
+				<h1>Tenzin's Momo zone</h1>
+			</header>
+
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="btn badge-pill" class="nav-link" href="index.html"><img src="image/home.svg" width="20px"> Home</a>
+							<a class="btn badge-pill" class="nav-link" href="menu.html">Menu</a>
+							<a class="btn badge-pill" class="nav-link" href="contact.html">Contact us</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clear-float"></div>
+				<hr />
+			</nav>
+
+
+			<hr />
+			<br />
+
+			<!-- onsubmit="return false" method="POST" -->
+			<form>
+				<label for="name1">Name:</label>
+				<input type="text" id="name1" name="name">
+				<p id="error1" style="display:none;"> This field is required.</p>
+				<br /><br />
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="email"><br /><br />
+				<p id="error1" style="display:none"> This field is required.</p>
+				<label for="phone">Phone:</label>
+				<input type="text" id="phone" name="phone"><br /><br />
+				<p id="error1" style="display:none"> This field is required.</p>
+				<label for="inquiry">Reasons for inquiry:</label>
+				<select id="inquiry" name="inquiry">
+					<option value="default" selected>Catering</option>
+					<option value="privateParty">Private Party</option>
+					<option value="feedback">Feeback</option>
+					<option value="Other">Other</option>
+				</select><br /><br />
+				<label for="info">Additional Information:</label>
+				<textarea id="info" name="info"></textarea> <br /><br />
+				Have you been to the restaurant?
+				<input type="radio" id="choice2" name="questionaire" calue="no">
+				<label for="choice2">No</label>
+				<input type="radio" id="choice1" name="questionaire" value="yes">
+				<label for="choice1">Yes</label><br /><br />
+				Best days to contact you:
+				<input type="checkbox" id="mon" name="monday" value="monday">
+				<label for="mon">M</label>
+				<input type="checkbox" id="tue" name="tuesday" value="tuesday">
+				<label for="mon">T</label>
+				<input type="checkbox" id="wed" name="wednesday" value="wednesday">
+				<label for="wed">W</label>
+				<input type="checkbox" id="thur" name="thursday" value="thursday">
+				<label for="thur">Th</label>
+				<input type="checkbox" id="fri" name="friday" value="friday">
+				<label for="fri">F</label><br /><br>
+
+				<!-- <input type="submit" name="sendRequest" onclick="return validateForm();" value="Send Request" style="border-radius: 20px;"> -->
+
+				<button id="submitButton" onclick="return validateForm();" style="border-radius: 20px;">Submit</button>
+				<button id="reset" onclick="location.reload();" style="border-radius:20px;">Reset Form</button>
+
+
+			</form>
+			<hr />
+		</div>
+		<footer>
+			<p> 45-25,48th street<br />
+				First Floor,Woodside,<br />
+				NY-11377
+			</p>
+		</footer>
+	</main>
+
+	<script type="text/JavaScript" src="script/restaurant.js"></script>
+
+	<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
