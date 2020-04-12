@@ -14,6 +14,13 @@
 			background-image: url("image/stars.jpg");
 			background-attachment: fixed;
 		}
+
+		#error1,
+		#error2,
+		#error3 {
+			color: red;
+			font-size: 10px;
+		}
 	</style>
 
 </head>
@@ -47,17 +54,19 @@
 			<br />
 
 			<!-- onsubmit="return false" method="POST" -->
-			<form>
+			<form method="POST" onsubmit="return false">
 				<label for="name1">Name:</label>
 				<input type="text" id="name1" name="name">
 				<p id="error1" style="display:none;"> This field is required.</p>
 				<br /><br />
 				<label for="email">Email:</label>
-				<input type="text" id="email" name="email"><br /><br />
-				<p id="error1" style="display:none"> This field is required.</p>
+				<input type="text" id="email" name="email">
+				<p id="error2" style="display:none"> This field is required.</p>
+				<br><br>
 				<label for="phone">Phone:</label>
-				<input type="text" id="phone" name="phone"><br /><br />
-				<p id="error1" style="display:none"> This field is required.</p>
+				<input type="text" id="phone" name="phone">
+				<p id="error3" style="display:none"> This field is required.</p>
+				<br><br>
 				<label for="inquiry">Reasons for inquiry:</label>
 				<select id="inquiry" name="inquiry">
 					<option value="default" selected>Catering</option>
@@ -86,7 +95,7 @@
 
 				<!-- <input type="submit" name="sendRequest" onclick="return validateForm();" value="Send Request" style="border-radius: 20px;"> -->
 
-				<button id="submitButton" onclick="return validateForm();" style="border-radius: 20px;">Submit</button>
+				<button id="submitButton" onclick="validateForm();" style="border-radius: 20px;">Submit</button>
 				<button id="reset" onclick="location.reload();" style="border-radius:20px;">Reset Form</button>
 
 
