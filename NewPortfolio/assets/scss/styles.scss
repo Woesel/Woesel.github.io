@@ -7,13 +7,13 @@
     --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
     --first-color: #4070F4;
     --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== FONTS =====*/
 :root{
     --body-font: 'Poppins', sans-serif;
 
@@ -28,7 +28,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
@@ -118,7 +118,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #544141;
+    background-color: #522D70;
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -147,7 +147,7 @@ img{
     }
     &__link{
         position: relative;
-        color: #544141;
+        color: #522D70;
 
         &:hover{
             position: relative;
@@ -231,7 +231,7 @@ img{
 .button{
     display: inline-block;
     background-color: var(--first-color);
-    color: #544141;
+    color: #522D70;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem; 
@@ -364,7 +364,7 @@ img{
 /* ===== FOOTER =====*/
 .footer{
     background-color: var(--second-color);
-    color: #544141;
+    color: #522D70;
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
@@ -378,7 +378,7 @@ img{
     }
     &__icon{
         font-size: 1.5rem;
-        color: #544141;
+        color: #522D70;
         margin: 0 var(--mb-2);
     }
 }
