@@ -1,83 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
 
-		<title> Tenzin's Momo Zone</title>
-		<noscript>This site is best viewed with JavaScript enabled.</noscript>
+<head>
 
-
-		<!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	  <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<title> Tenzin's Momo Zone</title>
+	<noscript>This site is best viewed with JavaScript enabled.</noscript>
 
 
-		<style>
-			 .imageheader{
-					background-image: url("image/stars.jpg");
-					background-attachment: fixed;
-						}
-			 #back{
-				background-color: #D4F2D0;
-				}
-				#jumbo{
-					font-style:	italic;
-				}
-		</style>
-		</head>
-		<body  class="imageheader">
-			<main>
-				<noscript>Sorry, your browser does not support JavaScript!</noscript>
-			<div class="jumbotron jumbotron-fluid" id="jumbo" style= "background-image: url(image/dump1.jfif); background-size: 100%; border-radius: 20px; ">
+	<!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+
+	<style>
+		.imageheader {
+			background-image: url("image/stars.jpg");
+			background-attachment: fixed;
+		}
+
+		#back {
+			background-color: #D4F2D0;
+		}
+
+		#jumbo {
+			font-style: italic;
+		}
+		#info,h1{
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body class="imageheader">
+	<main>
+		<noscript>Sorry, your browser does not support JavaScript!</noscript>
+		<div class="jumbotron jumbotron-fluid" id="jumbo"
+			style="background-image: url(image/dump1.jfif); background-size: 100%; border-radius: 20px; ">
 			<header>
 				<h1>Tenzin's Momo Zone</h1>
 			</header> <br>
 
-			
-    	  <div class="container">
-          <h1 class="display-4" style="color:#D4F2D0"> Great news! Tenzin's Momo Zone is coming right next to your local hotspot soon!</h1><br>
-      	  <p class="lead" style="color:black">*In May 2020*</p>
-      	</div>
-    	</div>
 
-				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="collapsibleNavbar">
-							<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="btn badge-pill" class="nav-link" href="index.html"><img src="image/home.svg" width="20px"> Home</a>
-								<a class="btn badge-pill" class="nav-link" href="menu.html">Menu</a>
-								<a class="btn badge-pill" class="nav-link" href="contact.html">Contact us</a>
-							</li>
-							</ul>
-						</div><div class="clear-float"></div>
-					<hr/>
-				</nav>
-			</header>
-			<br/>
-			<img src="image/dumpling.webp" alt="dumpling picture" width="400px">
-			<h2>Best dumpling in the world</h2>
-			<p>The best dumpling place you will ever find. The taste of one piece of our dumpling will make you come back to our place for the zillionth time.We serve our dumplings fresh and hot. We are open 24/7 all year long.</p>
+			<div class="container">
+				<h1 class="display-4" style="color:#D4F2D0"> Great news! Tenzin's Momo Zone is coming right next to your
+					local hotspot soon!</h1><br>
+				<p class="lead" style="color:black">*In May 2020*</p>
+			</div>
+		</div>
+
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="btn badge-pill" class="nav-link" href="index.html"><img src="image/home.svg"
+								width="20px"> Home</a>
+						<a class="btn badge-pill" class="nav-link" href="menu.html">Menu</a>
+						<a class="btn badge-pill" class="nav-link" href="contact.html">Contact us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear-float"></div>
+			<hr />
+		</nav>
+		</header>
+		<br />
+		<div id="info">
+			<img src="image/dumpling.webp" alt="dumpling picture" width="400px" >
+			<h2 >Best dumpling in the world</h2>
+			<p>The best dumpling place you will ever find. The taste of one piece of our dumpling will make you come
+				back to our place for the zillionth time.We serve our dumplings fresh and hot. We are open 24/7 all year
+				long.</p>
 			<h3><strong>Read a recent review!</strong></h3>
 			<a href="">4star-taste,</a>
 			<a href="">1star-price</a>
-			<hr/>
-			</div>
-			<footer>
-			<p> 45-25,48th street<br/>
+			<hr />
+		</div>
+		<footer>
+			<p> 45-25,48th street<br />
 				First Floor,Woodside,
 				NY-11377
 			</p>
-			</footer>
-		</main>
+		</footer>
+	</main>
 
-				<script type="text/JavaScript" src="script/restaurant.js"></script>
-		<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/JavaScript" src="script/restaurant.js"></script>
+	<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
 
 
-		</body>
+</body>
+
 </html>
